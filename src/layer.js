@@ -1,4 +1,4 @@
-import MapboxGl from "../vendor/mapbox-gl.bundle";
+import MapboxGl from "mapbox-gl/dist/mapbox-gl";
 import React, { Component, PropTypes, cloneElement, Children } from "react";
 import isEqual from "deep-equal";
 import { diff } from "./helper";
@@ -214,4 +214,3 @@ export default class Layer extends Component {
     return null;
   }
 }
-
